@@ -1,148 +1,369 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-  <link rel="stylesheet" href="./fonts/fonts.css">
-  <link rel="stylesheet" href="./styles/global.css">
-  <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
-  <header class="header">
-    <nav class="header__menu">
-      <ul class="header__links-list">
-        <li class="header__links-list-item header__links-list-item_no-bullit">
-          <a class="header__link text__decoration-settings header__link_active" href="#0">главная</a>
-        </li>
-        <li class="header__links-list-item">
-          <a class="header__link text__decoration-settings" href="#0">посмотреть лоты</a>
-        </li>
-        <li class="header__links-list-item">
-          <a class="header__link text__decoration-settings" href="#0">об аукционе</a>
-        </li>
-      </ul>
-    </nav>
-    <a class="header__logo">
-      <img class="header__logo-image" src="./images/logo-black.svg" alt="Логотип">
-    </a>
-    <address class="address">
-      <a class="address__info  text__decoration-settings" href="tel:+99995555555">+9 999 555 5555</a>
-      <a class="address__info  text__decoration-settings" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-      <p class="address__info">наб. Принсенграхт 263-<br>265, Амстердам</p>
-    </address>
-  </header>
-  <main>
-    <section class="cover">
-      <div class="overlay"></div>
-      <h1 class="cover__title">
-        <span class="accent-span aligned-text letter-spacing-normal">О<span class="letter-spacing-extended">но</span></span>
-        <span class="accent-span aligned-text_center letter-spacing-normal">Те<span class="letter-spacing-extended">бе</span></span>
-        <span class="accent-span aligned-text_right letter-spacing-normal"><span class="letter-spacing-extended">Н</span>ад<span class="no-letter-spacing">о</span></span>
-      </h1>
-      <div class="cover-description">
-        <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
-        <button class="bet-button">Сделать ставку</button>
-      </div>
-    </section>
-    <section class="lots">
-      <h2 class="lots__heading">Лоты</h2>
-      <ul class="lots__card-list">
-        <li class="lots__card-list-item">
-          <a class="card-link" href="#0">
-            <article class="card card_type_film">
-              <div class="overlay"></div>
-              <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
-              <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не
-                знали, что режиссёр — Пол Томас Андерсон?</p>
-            </article>
-          </a>
-        </li>
-        <li class="lots__card-list-item">
-          <a class="card-link" href="#0">
-            <article class="card card_type_book">
-              <div class="overlay"></div>
-              <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
-              <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
-                древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная
-                с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на
-                «Улисса» Джеймса Джойса?</p>
-            </article>
-          </a>
-        </li>
-        <li class="lots__card-list-item">
-          <a class="card-link" href="#0">
-            <article class="card card_type_picture">
-              <div class="overlay"></div>
-              <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-              <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
-                инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали,
-                что это — одна из революционных работ Кандинского?</p>
-            </article>
-          </a>
-        </li>
-      </ul>
-      <a class="lots__look-more-link" href="#0">посмотреть больше</a>
-    </section>
-    <section class="about">
-      <div class="about__column">
-        <div class="about__logo">
-          <img class="about__logo-image" src="./images/logo-white.svg" alt="Логотип">
-        </div>
-      </div>
-      <article class="about__column__text">
-        <h2 class="about__title">Об аукционе</h2>
-        <div class="text">
-          <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.
-            Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка
-            или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
-          </p>
-          <p class="about__text">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах
-            растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на
-            критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную
-            культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали
-            культовыми.</p>
-        </div>
-      </article>
-    </section>
-  </main>
-  <footer class="footer">
-    <address class="address">
-      <a class="address__info text__decoration-settings" href="tel:+99995555555">+9 999 555 5555</a>
-      <a class="address__info text__decoration-settings" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-      <p class="address__info">наб. Принсенграхт 263-265,<br>Амстердам</p>
-    </address>
-    <nav class="footer__menu">
-      <ul class="footer__menu-list">
-        <li class="footer__menu-list-item">
-          <a class="text__decoration-settings footer__menu-link_active" href="#0">Главная</a>
-        </li>
-        <li class="footer__menu-list-item">
-          <a class="text__decoration-settings" href="#0">Посмотреть лоты</a>
-        </li>
-        <li class="footer__menu-list-item">
-          <a class="text__decoration-settings" href="#0">Об аукционе</a>
-        </li>
-      </ul>
-    </nav>
-    <ul class="footer__social-list">
-      <li class="footer__social-list-item">
-        <a class="footer__social-link" href="#0">
-          <img class="footer__social-icon" src="./images/yt.svg" alt="логотип ютуб">
-        </a>
-      </li>
-      <li class="footer__social-list-item">
-        <a class="footer__social-link" href="#0">
-          <img class="footer__social-icon" src="./images/vk.svg" alt="логотип вк">
-        </a>
-      </li>
-      <li class="footer__social-list-item">
-        <a class="footer__social-link" href="#0">
-          <img class="footer__social-icon" src="./images/pinterest.svg" alt="логотип пинтерест">
-        </a>
-      </li>
-    </ul>
-  </footer>
-</body>
-</html>
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 92px 24px 96px;
+}
+
+.header__links-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 32px;
+}
+
+.header__links-list-item {
+    list-style-type: circle;
+}
+
+.header__links-list-item_no-bullit {
+    list-style-type: none;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 27px;
+    padding-right: 40px;
+}
+
+.header__logo {    
+    padding-right: 185px;
+}
+
+.header__logo-image {
+    width: 148px;
+    height: 105px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.header__link, 
+.address__info {
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+.text__decoration-settings {
+    text-underline-offset: 4px;
+}
+
+.header__link {
+    text-decoration: underline;
+}
+
+.header__link_active {
+    text-decoration: none;
+}
+
+.cover {
+    position: relative;
+    z-index: 0;
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 757px;
+}
+    
+.overlay {
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    z-index: 0;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cover__title, 
+.cover-description, 
+.card__title, 
+.card__text {
+    position: relative;
+    z-index: 1;
+}
+
+.cover__title {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Raleway, Arial, sans-serif;
+    line-height: 115px;
+    font-size: 100px;
+    font-weight: 700;
+    padding: 165px 50px 106px;
+}
+
+.accent-span {
+    display: block;
+}
+
+.aligned-text {
+    text-align: left;
+}
+
+.aligned-text_center {
+    text-align: center;
+    padding-left: 30px;
+}
+
+.aligned-text, 
+.aligned-text_center {
+    margin-bottom: 20px;
+}
+
+.aligned-text_right {
+    text-align: right;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 30px;
+}
+
+.letter-spacing-normal {
+    letter-spacing: 30px;
+}
+
+.cover-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.cover__description-text {
+    color: #ffffff;
+    font-family: Raleway, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    word-spacing: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bet-button {
+    background-color: transparent;
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 12px 32px 11px 31px;
+    border: 1px solid #ffffff;
+}
+
+.lots {
+    padding: 180px 24px 0;
+    height: auto;
+}
+
+.card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
+}
+
+.card_type_book {
+    background-image: url(../images/card-lot-02.jpg);
+}
+
+.card_type_picture {
+    background-image: url(../images/card-lot-03.jpg);
+}
+
+.lots__heading {
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: left;
+    color: #000000;
+    text-transform: uppercase;
+    padding-left: 40px;
+    padding-bottom: 27px; 
+}
+
+.card-link {
+    display: block;
+    text-decoration: none;
+    height: 100%;
+}
+
+.card {
+    padding: 48px 40px;
+    width: 334px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.lots__card-list-item {
+    min-height: 596px;
+}
+
+.lots__card-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 25px;
+    list-style-type: none;
+    position: relative;
+    z-index: 1;
+}
+
+.card__title {
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.card__text {
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.lots__look-more-link {
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+    text-decoration: underline;
+    padding-left: 40px;
+    padding-top: 30px;
+    display: block;
+}
+
+.about {
+    padding: 120px 24px 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about__logo {
+    background-color: #000000;
+    border-radius: 100%;
+    width: 240px;
+    height: 240px;
+}
+
+.about__logo-image {
+    padding: 64px 46px 62px 45px;
+}
+
+.about__column {
+    padding-top: 35px;
+    padding-left: 47px;
+}
+
+.about__column__text {
+    padding-left: 72px;
+    padding-top: 133px;
+    padding-right: 24px;
+}
+
+.about__title {
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color:#000;
+    text-transform: uppercase;
+    padding-bottom: 100px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px; 
+}
+
+.about__text {
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color:#000; 
+}
+
+.footer {
+    padding: 0 50px 91px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__menu-link_active {
+    text-decoration: none;
+}
+
+.footer__menu-list {
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.footer__link, 
+.footer__address {
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+.footer__social-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.footer__menu-list, 
+.footer__social-list {
+    list-style-type: none;
+}
+
+.footer__social-icon {
+    width: 48px;
+    height: 48px;
+}
+
+.footer__menu-list-item {
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.13px;
+}
